@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(circle at center, #0B5D1E 50%, #053B06 75%, #000000 100%);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  color: #000;
+}
+
+.the-title h1 {
+  margin: 0 0 20px;
+  color: #0DAB76;
+  font-size: clamp(40px, 10vw, 90px);
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 12px 20px rgba(0,0,0,0.6);
+  color: #ffffff;                  
+  -webkit-text-stroke: 3px #000;   
+  font-weight: bold;                
+  font-size: 60px;
+}
+
+#countdown {
+  color: #ffffff;                  
+  -webkit-text-stroke: 2px #000;   
+  font-weight: bold;                
+  font-size: 60px;
+  white-space: pre-line;
+  font-size: 42px;
+  font-weight: 800;
+  color: #0DAB76;
+  text-shadow: 0 12px 20px rgba(0,0,0,0.6);
+}
+
