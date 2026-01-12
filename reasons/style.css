@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(#0B5D1E 50%, #053B06 75%, #000000 100%);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  color: #fff;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);      
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;                        
+  padding: 60px 80px;                         
+  max-width: 900px;                            
+  margin-top: 30px;                            
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4);    
+  text-align: center;                          
+  color: #fff;                                 
+}
+
+.is-ai {
+  font-size: clamp(10px, 1vw, 20px);   
+  font-weight: 100;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #ff0000;       
+  text-shadow: 0 12px 20px rgba(255, 255, 255);
+  margin: 0;
+}
