@@ -53,3 +53,7 @@ ol, b, p {
   -webkit-text-stroke: #FFFFFF;
   text-shadow: 0 8px 16px #000000;
 }
+
+.bold-in-list {
+  color: red;
+}
