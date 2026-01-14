@@ -1,15 +1,13 @@
 html, body {
-  height: 100%;
   margin: 0;
 }
 
 body {
-  background: radial-gradient(#0B5D1E 50%, #053B06 75%, #000000 100%);
+  background: linear-gradient(to bottom, #0B5D1E 5%, #053B06 50%,#000000 100%);
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
   padding: 24px;
   color: #fff;
@@ -19,19 +17,39 @@ body {
   background: rgba(255, 255, 255, 0.08);      
   border: 2px solid rgba(255, 255, 255, 0.15);
   border-radius: 20px;                        
-  padding: 60px 80px;                         
-  max-width: 900px;                            
-  margin-top: 30px;                            
+  padding: 80px 80px;                         
+  max-width: 900px;                                                      
   box-shadow: 0 12px 40px rgba(0,0,0,0.4);    
   text-align: center;                          
-  color: #fff;                                 
+  color: #fff;                                
 }
 
 .is-ai {
   font-size: clamp(10px, 1vw, 20px);   
-  font-weight: 100;
-  color: #ffffff;
-  -webkit-text-stroke: 2px #ff0000;       
-  text-shadow: 0 12px 20px rgba(255, 255, 255);
+  font-weight: bold;
+  color: #ff0000;
+  -webkit-text-stroke:#ff0000;       
+  text-shadow: 0 1px 20px rgba(255, 255, 255);
   margin: 0;
+}
+
+.proof-1-img {
+  width: 99%;
+  height: 99%;
+}
+
+h1 {
+  font-size: clamp(50px, 10vw, 90px);   
+  font-weight: 900;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #053B06;       
+  text-shadow: 0 12px 20px rgba(0,0,0,0.6);
+  margin: 0;
+}
+
+ol, b, p {
+  font-weight: bold;
+  font-size: clamp(10px, 1vw, 20px); 
+  -webkit-text-stroke: #FFFFFF;
+  text-shadow: 0 8px 16px #000000;
 }

@@ -1,35 +1,24 @@
 html, body {
-  height: 100%;
   margin: 0;
 }
 
-body {
-  background: radial-gradient(circle at center, #0B5D1E 50%, #053B06 75%, #000000 100%);
+.top-of-page {
+  min-height: 200vh;
+  background: linear-gradient(to bottom, #0B5D1E 5%, #053B06 50%,#032A04 75%,#000000 100%);
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
   padding: 24px;
   color: #fff;
-}
-
-#countdown {
-  font-size: clamp(40px, 8vw, 80px);    
-  font-weight: 800;
-  color: #0DAB76;
-  -webkit-text-stroke: 2px #053B06;       
-  text-shadow: 0 12px 20px rgba(0,0,0,0.6);
-  white-space: pre-line;               
-  margin-top: 30px;
 }
 
 .card {
   background: rgba(255, 255, 255, 0.08);      
   border: 2px solid rgba(255, 255, 255, 0.15);
   border-radius: 20px;                        
-  padding: 60px 80px;                         
+  padding: clamp(20px, 5vw, 60px) clamp(20px, 5vw, 80px);             
   max-width: 900px;                            
   margin-top: 30px;                            
   box-shadow: 0 12px 40px rgba(0,0,0,0.4);    
@@ -42,6 +31,44 @@ body {
   font-weight: 900;
   color: #ffffff;
   -webkit-text-stroke: 2px #053B06;       
+  text-shadow: 0 12px 20px rgba(0,0,0,0.6);
+  margin: 0;
+}
+
+#countdown {
+  font-size: clamp(40px, 8vw, 80px);    
+  font-weight: 800;
+  color: #0DAB76;
+  -webkit-text-stroke: 2px #053B06;       
+  text-shadow: 0 12px 20px rgba(0,0,0,0.6);
+  white-space: pre-line;               
+  margin-top: 30px;
+}
+
+.content {
+  background: #000000 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+  color: #fff;
+}
+
+.content p {
+  font-weight: 1;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #0B5D1E;       
+  text-shadow: 0 12px 20px rgba(0,0,0,0.6);
+  margin: 0;
+}
+
+.content a {
+  font-size: clamp(50px, 10vw, 90px);   
+  font-weight: 900;
+  color: #000000;
+  -webkit-text-stroke: 2px #000000;       
   text-shadow: 0 12px 20px rgba(0,0,0,0.6);
   margin: 0;
 }
